@@ -1,5 +1,5 @@
 day = int(input("Введите день: "))
-month = int(input("Введите месяц: "))
+month = int(input("Введите месяц : "))
 
 if (month == 3 and day >= 1) or (month == 4) or (month == 5) or (month == 6 and day <= 31):
     season = "Весна"
